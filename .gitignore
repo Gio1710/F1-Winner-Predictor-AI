@@ -1,0 +1,17 @@
+# Ignora file di sistema Mac
+.DS_Store
+
+# Ignora file temporanei Python
+__pycache__/
+*.py[cod]
+
+# Ignora dataset enormi (opzionale, se i CSV sono >100MB GitHub li blocca)
+# Se i tuoi CSV sono piccoli, puoi lasciare commentata la riga sotto
+# *.csv
+
+# Ignora cartelle virtual env (se ne hai)
+venv/
+env/
+.ipynb_checkpoints/
+
+
